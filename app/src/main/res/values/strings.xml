@@ -2,4 +2,6 @@
     <string name="app_name">My Siam</string>
     <string name="title">Bike Service</string>
     <string name="login">Login</string>
+    <string name="user">User</string>
+    <string name="password">password</string>
 </resources>

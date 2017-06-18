@@ -13,6 +13,7 @@
         android:padding="@dimen/padding">
 
         <ImageView
+            android:id="@+id/imvback"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_back" />
@@ -36,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!--หน้าเพจ-->
+        <!--pag-->
         <LinearLayout
             android:background="#64494848"
             android:layout_width="match_parent"
@@ -65,6 +66,7 @@
                     android:src="@mipmap/ic_name" />
 
                 <EditText
+                    android:id="@+id/edtname123"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/name"
@@ -88,7 +90,7 @@
                     android:src="@mipmap/ic_user" />
 
                 <EditText
-                    android:id="@+id/editText"
+                    android:id="@+id/edtUser"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/user"
@@ -112,6 +114,7 @@
                     android:src="@mipmap/ic_pass" />
 
                 <EditText
+                    android:id="@+id/edtPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/password"

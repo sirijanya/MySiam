@@ -61,6 +61,7 @@
                 android:layout_height="wrap_content" />
 
             <EditText
+                android:id="@+id/edtUser"
                 android:textColorHint="@color/colorPrimaryLight"
                 android:textColor="@color/colorPrimaryDark"
                 android:hint="@string/user"
@@ -81,6 +82,7 @@
                 android:src="@mipmap/ic_pass" />
 
             <EditText
+                android:id="@+id/edtPassword"
                 android:textColorHint="@color/colorPrimaryLight"
                 android:textColor="@color/colorPrimaryDark"
                 android:layout_width="match_parent"
@@ -90,6 +92,8 @@
         </LinearLayout>
 
         <TextView
+            android:clickable="true"
+            android:id="@+id/txtNewRegister"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/h2"
             android:text="New Register"
@@ -100,6 +104,7 @@
     </LinearLayout>
 
 <Button
+    android:id="@+id/btnLogin"
     android:textColor="@color/textcolorPrimary"
     android:text="@string/login"
     android:background="@color/colorPrimary"

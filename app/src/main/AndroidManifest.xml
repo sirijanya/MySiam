@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.siam.jumpadeng.sirijanya.mysiam">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
         <!--lodoapp icon-->
     <application
         android:allowBackup="true"
